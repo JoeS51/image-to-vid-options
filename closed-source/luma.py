@@ -10,7 +10,6 @@ class VideoReq(BaseModel):
     keyframes: dict
 
 LUMA_APP_URL = "https://api.lumalabs.ai/dream-machine/v1/generations"
-LUMA_API_KEY = "luma-847bec3c-13db-47a0-8386-6e869e500e44-1b817fac-9e0a-4ded-a4bf-a7394f492a41"
 
 @app.get("/")
 async def root():
